@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
     filterableCards.innerHTML = "";
 
     if (targetName === "all") {
-      fetch(`images/all`)
+      fetch(`nihascraftalley.vercel.app/images/all`)
         .then((response) => {
           if (!response.ok) {
             throw new Error("Network response was not ok");
